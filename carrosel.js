@@ -3,8 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
         alert('Não se esqueça de dar sua Opinião no final!');
     }, 30000);
 
-
-document.addEventListener('DOMContentLoaded', function () {
     let currentSlide = 0;
     const slides = document.querySelectorAll('.carrosel img');
     const totalSlides = slides.length;
@@ -20,5 +18,4 @@ document.addEventListener('DOMContentLoaded', function () {
         currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
         slides[currentSlide].classList.add('active');
     });
-});
 });
