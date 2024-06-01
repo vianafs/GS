@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     setTimeout(function () {
         alert('Não se esqueça de dar sua Opinião no final!');
-    }, 30000);
+    }, 20000);
 
     let currentSlide = 0;
     const slides = document.querySelectorAll('.carrosel img');
